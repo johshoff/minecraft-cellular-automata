@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script src='index.js'></script>
+<script>
+	onload = function() {
+		draw = browser_main(document.getElementById('scene'));
+		setInterval(draw, 1000);
+	}
+</script>
+<style>
+canvas {
+	image-rendering: pixelated;
+}
+</style>
+<body>
+	<canvas id='scene' width=64 height=64></canvas>

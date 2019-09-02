@@ -5,6 +5,20 @@ The paper doesn't mention which strategy to use when counting windows outside
 the wall. But since the result 2 or 3 windows out of five locations, i.e. a
 40%/60% "chance", it doesn't matter much which strategy we choose.
 
+# Running
+
+## Browser
+
+Clone the repository, then open `index.html` in the browser. Sample output:
+
+![](stable.png)
+
+## Command line
+
+To run on the command line, you need [nodejs](https://nodejs.org). Then run
+
+    node index.js
+
 Sample output:
 
     generation 0:
